@@ -1,0 +1,91 @@
+{
+  "name": "intelliop_ai_agent",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^7.1.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@fortawesome/fontawesome-svg-core": "^7.0.0",
+    "@fortawesome/free-solid-svg-icons": "^7.0.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@mui/icons-material": "^6.4.6",
+    "@mui/material": "^6.4.6",
+    "@nivo/bar": "^0.99.0",
+    "@nivo/sankey": "^0.99.0",
+    "@reduxjs/toolkit": "^2.8.2",
+    "antd": "5.6.0",
+    "axios": "^1.10.0",
+    "cra-template": "1.2.0",
+    "cross-env": "^7.0.3",
+    "crypto-js": "^4.2.0",
+    "dompurify": "^3.2.6",
+    "dotenv": "^16.4.7",
+    "emoji-picker-react": "^4.12.0",
+    "env-cmd": "^10.1.0",
+    "jquery": "^3.7.1",
+    "lucide-react": "^0.475.0",
+    "mermaid": "^11.6.0",
+    "moment": "^2.30.1",
+    "postcss": "^8.5.1",
+    "postcss-cli": "^11.0.0",
+    "react": "^19.1.0",
+    "react-cytoscapejs": "^2.0.0",
+    "react-datetime": "^3.3.1",
+    "react-dom": "^19.1.0",
+    "react-dynamic-animated-tree": "^1.1.0",
+    "react-loader-spinner": "^6.1.6",
+    "react-markdown": "^9.0.3",
+    "react-redux": "^9.2.0",
+    "react-rnd": "^10.5.2",
+    "react-router-dom": "^7.6.1",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.10.1",
+    "react-tabs": "^6.1.0",
+    "react-toastify": "^11.0.5",
+    "react-use-websocket": "^4.13.0",
+    "recharts": "^3.1.0",
+    "redux": "^5.0.1",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^3.1.0",
+    "remark-gfm": "^4.0.1",
+    "tailwind-merge": "^3.3.0",
+    "turndown": "^7.2.0",
+    "turndown-plugin-gfm": "^1.0.2",
+    "uuid": "^11.1.0",
+    "victory": "^37.3.6"
+  },
+  "scripts": {
+    "start:dev": "cross-env REACT_APP_ENV=dev PUBLIC_URL=/dev-intelliops react-scripts --max_old_space_size=4096 start",
+    "start:qa": "cross-env REACT_APP_ENV=qa PUBLIC_URL=/qa-intelliops react-scripts start",
+    "start:prod": "cross-env REACT_APP_ENV=prod PUBLIC_URL=/intelliops react-scripts start",
+    "build:dev": "cross-env REACT_APP_ENV=dev PUBLIC_URL=/dev-intelliops react-scripts --max_old_space_size=4096 build",
+    "build:qa": "cross-env REACT_APP_ENV=qa PUBLIC_URL=/qa-intelliops react-scripts build",
+    "build:prod": "cross-env REACT_APP_ENV=prod PUBLIC_URL=/prod-intelliops react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^6.0.0",
+    "tailwindcss": "^3.3.2"
+  }
+}
