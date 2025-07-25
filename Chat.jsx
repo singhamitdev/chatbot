@@ -21,7 +21,7 @@ const Chat = () => {
   const [currentResponse, setCurrentResponse] = useState("");
   const [typingIndex, setTypingIndex] = useState(0);
   const [socketUrl, setSocketUrl] = useState(
-    "ws://54.179.229.33:8443/supervisor"
+    "ws:///supervisor"
   );
   const [chatHistory, setChatHistory] = useState([]);
   const [selectedChatId, setSelectedChatId] = useState(null);
